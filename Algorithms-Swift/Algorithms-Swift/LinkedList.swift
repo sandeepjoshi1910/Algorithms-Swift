@@ -1,19 +1,19 @@
+////
+////  LinkedList.swift
+////  Algorithms-Swift
+////
+////  Created by Sandeep Joshi on 11/24/18.
+////  Copyright © 2018 Sandeep Joshi. All rights reserved.
+////
 //
-//  LinkedList.swift
-//  Algorithms-Swift
-//
-//  Created by Sandeep Joshi on 11/24/18.
-//  Copyright © 2018 Sandeep Joshi. All rights reserved.
-//
-
 import Cocoa
 
-class LinkedList: NSObject {
+class LinkedList<T>: NSObject {
     
-    var head : Node?
-    var tail : Node?
+    var head : Node<T>?
+    var tail : Node<T>?
     
-    func appendNode(val: Int) {
+    func appendNode(val: T) {
         let newNode = Node(val: val)
         if self.head == nil {
             self.head = newNode
@@ -35,7 +35,7 @@ class LinkedList: NSObject {
         }
     }
     
-    func appendList(values: [Int]) {
+    func appendList(values: [T]) {
         for elem in values {
             self.appendNode(val: elem)
         }
@@ -44,10 +44,10 @@ class LinkedList: NSObject {
 }
 
 
-class Node : NSObject {
-    init(val: Int) {
+class Node<T> : NSObject {
+    init(val: T) {
         self.value = val
     }
-    var value : Int?
+    var value : T?
     var next : Node?
 }
