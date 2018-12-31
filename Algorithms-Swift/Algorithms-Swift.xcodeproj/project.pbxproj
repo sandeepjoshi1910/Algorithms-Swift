@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300A9C4021D4A5ED00EC3962 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A9C3F21D4A5ED00EC3962 /* Colors.swift */; };
+		300A9C4221D570EC00EC3962 /* Treewidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A9C4121D570EB00EC3962 /* Treewidth.swift */; };
+		300A9C4421D5CFCC00EC3962 /* CSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A9C4321D5CFCC00EC3962 /* CSets.swift */; };
 		3089318C21AA457D005033B6 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089318B21AA457D005033B6 /* BinaryTree.swift */; };
 		3089318E21AA589F005033B6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089318D21AA589F005033B6 /* Stack.swift */; };
 		3089319021AA59FB005033B6 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089318F21AA59FB005033B6 /* Queue.swift */; };
 		30A0C65321AA127200D9AFE4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0C65221AA127200D9AFE4 /* main.swift */; };
 		30A0C65A21AA12DA00D9AFE4 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0C65921AA12DA00D9AFE4 /* LinkedList.swift */; };
+		30D26A3421DAE3BC001BBBDE /* ParitionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D26A3321DAE3BC001BBBDE /* ParitionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +31,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		300A9C3F21D4A5ED00EC3962 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		300A9C4121D570EB00EC3962 /* Treewidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treewidth.swift; sourceTree = "<group>"; };
+		300A9C4321D5CFCC00EC3962 /* CSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSets.swift; sourceTree = "<group>"; };
 		3089318B21AA457D005033B6 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		3089318D21AA589F005033B6 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		3089318F21AA59FB005033B6 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		30A0C64F21AA127200D9AFE4 /* Algorithms-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithms-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A0C65221AA127200D9AFE4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		30A0C65921AA12DA00D9AFE4 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		30D26A3321DAE3BC001BBBDE /* ParitionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParitionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +74,12 @@
 			isa = PBXGroup;
 			children = (
 				30A0C65221AA127200D9AFE4 /* main.swift */,
+				300A9C4321D5CFCC00EC3962 /* CSets.swift */,
 				3089318D21AA589F005033B6 /* Stack.swift */,
 				3089318F21AA59FB005033B6 /* Queue.swift */,
+				30D26A3321DAE3BC001BBBDE /* ParitionList.swift */,
+				300A9C3F21D4A5ED00EC3962 /* Colors.swift */,
+				300A9C4121D570EB00EC3962 /* Treewidth.swift */,
 				30A0C65921AA12DA00D9AFE4 /* LinkedList.swift */,
 				3089318B21AA457D005033B6 /* BinaryTree.swift */,
 			);
@@ -131,10 +143,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300A9C4421D5CFCC00EC3962 /* CSets.swift in Sources */,
 				3089319021AA59FB005033B6 /* Queue.swift in Sources */,
+				300A9C4021D4A5ED00EC3962 /* Colors.swift in Sources */,
 				3089318E21AA589F005033B6 /* Stack.swift in Sources */,
 				30A0C65A21AA12DA00D9AFE4 /* LinkedList.swift in Sources */,
+				300A9C4221D570EC00EC3962 /* Treewidth.swift in Sources */,
 				30A0C65321AA127200D9AFE4 /* main.swift in Sources */,
+				30D26A3421DAE3BC001BBBDE /* ParitionList.swift in Sources */,
 				3089318C21AA457D005033B6 /* BinaryTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
