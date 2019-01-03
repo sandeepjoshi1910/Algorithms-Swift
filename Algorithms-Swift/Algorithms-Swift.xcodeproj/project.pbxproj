@@ -16,6 +16,7 @@
 		308C505E21DC16AE00CB4890 /* RectangleArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C505D21DC16AE00CB4890 /* RectangleArea.swift */; };
 		308C506021DC1E9300CB4890 /* ArraySearchTwoD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C505F21DC1E9300CB4890 /* ArraySearchTwoD.swift */; };
 		308C506221DC217700CB4890 /* SummaryRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C506121DC217700CB4890 /* SummaryRanges.swift */; };
+		308C506421DD48CB00CB4890 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C506321DD48CB00CB4890 /* ContinuousSubarraySum.swift */; };
 		30A0C65321AA127200D9AFE4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0C65221AA127200D9AFE4 /* main.swift */; };
 		30A0C65A21AA12DA00D9AFE4 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0C65921AA12DA00D9AFE4 /* LinkedList.swift */; };
 		30D26A3421DAE3BC001BBBDE /* ParitionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D26A3321DAE3BC001BBBDE /* ParitionList.swift */; };
@@ -43,6 +44,7 @@
 		308C505D21DC16AE00CB4890 /* RectangleArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleArea.swift; sourceTree = "<group>"; };
 		308C505F21DC1E9300CB4890 /* ArraySearchTwoD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySearchTwoD.swift; sourceTree = "<group>"; };
 		308C506121DC217700CB4890 /* SummaryRanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryRanges.swift; sourceTree = "<group>"; };
+		308C506321DD48CB00CB4890 /* ContinuousSubarraySum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSubarraySum.swift; sourceTree = "<group>"; };
 		30A0C64F21AA127200D9AFE4 /* Algorithms-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithms-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A0C65221AA127200D9AFE4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		30A0C65921AA12DA00D9AFE4 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				308C505D21DC16AE00CB4890 /* RectangleArea.swift */,
 				308C505F21DC1E9300CB4890 /* ArraySearchTwoD.swift */,
 				308C506121DC217700CB4890 /* SummaryRanges.swift */,
+				308C506321DD48CB00CB4890 /* ContinuousSubarraySum.swift */,
 				300A9C3F21D4A5ED00EC3962 /* Colors.swift */,
 				300A9C4121D570EB00EC3962 /* Treewidth.swift */,
 				30A0C65921AA12DA00D9AFE4 /* LinkedList.swift */,
@@ -164,6 +167,7 @@
 				30D26A3421DAE3BC001BBBDE /* ParitionList.swift in Sources */,
 				308C505E21DC16AE00CB4890 /* RectangleArea.swift in Sources */,
 				3089318C21AA457D005033B6 /* BinaryTree.swift in Sources */,
+				308C506421DD48CB00CB4890 /* ContinuousSubarraySum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
