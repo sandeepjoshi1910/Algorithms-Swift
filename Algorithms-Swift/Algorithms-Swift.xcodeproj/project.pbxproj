@@ -10,6 +10,7 @@
 		300A9C4021D4A5ED00EC3962 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A9C3F21D4A5ED00EC3962 /* Colors.swift */; };
 		300A9C4221D570EC00EC3962 /* Treewidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A9C4121D570EB00EC3962 /* Treewidth.swift */; };
 		300A9C4421D5CFCC00EC3962 /* CSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300A9C4321D5CFCC00EC3962 /* CSets.swift */; };
+		3018882221E56EFA00762112 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3018882121E56EFA00762112 /* Heap.swift */; };
 		3089318C21AA457D005033B6 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089318B21AA457D005033B6 /* BinaryTree.swift */; };
 		3089318E21AA589F005033B6 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089318D21AA589F005033B6 /* Stack.swift */; };
 		3089319021AA59FB005033B6 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089318F21AA59FB005033B6 /* Queue.swift */; };
@@ -19,6 +20,12 @@
 		308C506421DD48CB00CB4890 /* ContinuousSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308C506321DD48CB00CB4890 /* ContinuousSubarraySum.swift */; };
 		30A0C65321AA127200D9AFE4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0C65221AA127200D9AFE4 /* main.swift */; };
 		30A0C65A21AA12DA00D9AFE4 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A0C65921AA12DA00D9AFE4 /* LinkedList.swift */; };
+		30CBC90A223730CD0090B14C /* FruitsIntoBaskets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBC909223730CD0090B14C /* FruitsIntoBaskets.swift */; };
+		30CBC90C223730EF0090B14C /* UniqEmailAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBC90B223730EF0090B14C /* UniqEmailAddresses.swift */; };
+		30CBC90E2237310E0090B14C /* GameOfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBC90D2237310E0090B14C /* GameOfLife.swift */; };
+		30CBC910223731280090B14C /* DailyTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBC90F223731280090B14C /* DailyTemp.swift */; };
+		30CBC912223731440090B14C /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBC911223731440090B14C /* MergeIntervals.swift */; };
+		30CBC914223731A10090B14C /* LongestConsecutiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBC913223731A10090B14C /* LongestConsecutiveSequence.swift */; };
 		30D26A3421DAE3BC001BBBDE /* ParitionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D26A3321DAE3BC001BBBDE /* ParitionList.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +45,7 @@
 		300A9C3F21D4A5ED00EC3962 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		300A9C4121D570EB00EC3962 /* Treewidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treewidth.swift; sourceTree = "<group>"; };
 		300A9C4321D5CFCC00EC3962 /* CSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSets.swift; sourceTree = "<group>"; };
+		3018882121E56EFA00762112 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		3089318B21AA457D005033B6 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		3089318D21AA589F005033B6 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		3089318F21AA59FB005033B6 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -48,6 +56,12 @@
 		30A0C64F21AA127200D9AFE4 /* Algorithms-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithms-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A0C65221AA127200D9AFE4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		30A0C65921AA12DA00D9AFE4 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		30CBC909223730CD0090B14C /* FruitsIntoBaskets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsIntoBaskets.swift; sourceTree = "<group>"; };
+		30CBC90B223730EF0090B14C /* UniqEmailAddresses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqEmailAddresses.swift; sourceTree = "<group>"; };
+		30CBC90D2237310E0090B14C /* GameOfLife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfLife.swift; sourceTree = "<group>"; };
+		30CBC90F223731280090B14C /* DailyTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTemp.swift; sourceTree = "<group>"; };
+		30CBC911223731440090B14C /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
+		30CBC913223731A10090B14C /* LongestConsecutiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestConsecutiveSequence.swift; sourceTree = "<group>"; };
 		30D26A3321DAE3BC001BBBDE /* ParitionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParitionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,12 +98,19 @@
 				30A0C65221AA127200D9AFE4 /* main.swift */,
 				300A9C4321D5CFCC00EC3962 /* CSets.swift */,
 				3089318D21AA589F005033B6 /* Stack.swift */,
+				30CBC909223730CD0090B14C /* FruitsIntoBaskets.swift */,
+				30CBC90B223730EF0090B14C /* UniqEmailAddresses.swift */,
+				30CBC90D2237310E0090B14C /* GameOfLife.swift */,
+				30CBC90F223731280090B14C /* DailyTemp.swift */,
+				30CBC911223731440090B14C /* MergeIntervals.swift */,
+				30CBC913223731A10090B14C /* LongestConsecutiveSequence.swift */,
 				3089318F21AA59FB005033B6 /* Queue.swift */,
 				30D26A3321DAE3BC001BBBDE /* ParitionList.swift */,
 				308C505D21DC16AE00CB4890 /* RectangleArea.swift */,
 				308C505F21DC1E9300CB4890 /* ArraySearchTwoD.swift */,
 				308C506121DC217700CB4890 /* SummaryRanges.swift */,
 				308C506321DD48CB00CB4890 /* ContinuousSubarraySum.swift */,
+				3018882121E56EFA00762112 /* Heap.swift */,
 				300A9C3F21D4A5ED00EC3962 /* Colors.swift */,
 				300A9C4121D570EB00EC3962 /* Treewidth.swift */,
 				30A0C65921AA12DA00D9AFE4 /* LinkedList.swift */,
@@ -155,19 +176,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CBC914223731A10090B14C /* LongestConsecutiveSequence.swift in Sources */,
 				308C506221DC217700CB4890 /* SummaryRanges.swift in Sources */,
 				300A9C4421D5CFCC00EC3962 /* CSets.swift in Sources */,
 				3089319021AA59FB005033B6 /* Queue.swift in Sources */,
 				300A9C4021D4A5ED00EC3962 /* Colors.swift in Sources */,
 				308C506021DC1E9300CB4890 /* ArraySearchTwoD.swift in Sources */,
 				3089318E21AA589F005033B6 /* Stack.swift in Sources */,
+				30CBC90C223730EF0090B14C /* UniqEmailAddresses.swift in Sources */,
 				30A0C65A21AA12DA00D9AFE4 /* LinkedList.swift in Sources */,
 				300A9C4221D570EC00EC3962 /* Treewidth.swift in Sources */,
 				30A0C65321AA127200D9AFE4 /* main.swift in Sources */,
 				30D26A3421DAE3BC001BBBDE /* ParitionList.swift in Sources */,
+				30CBC910223731280090B14C /* DailyTemp.swift in Sources */,
 				308C505E21DC16AE00CB4890 /* RectangleArea.swift in Sources */,
+				30CBC912223731440090B14C /* MergeIntervals.swift in Sources */,
+				30CBC90E2237310E0090B14C /* GameOfLife.swift in Sources */,
 				3089318C21AA457D005033B6 /* BinaryTree.swift in Sources */,
 				308C506421DD48CB00CB4890 /* ContinuousSubarraySum.swift in Sources */,
+				30CBC90A223730CD0090B14C /* FruitsIntoBaskets.swift in Sources */,
+				3018882221E56EFA00762112 /* Heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

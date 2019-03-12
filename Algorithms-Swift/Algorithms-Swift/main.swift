@@ -9,3 +9,23 @@
 import Foundation
 
 
+let h = MinHeap()
+
+let nums = [1,3,5,6,2,9,7,12,15,17]
+
+for  num in nums {
+    h.insert(elem: num)
+}
+
+print(h.heap)
+
+h.heap.removeFirst()
+h.heapify()
+h.heap.removeFirst()
+h.heapify()
+h.heap.removeFirst()
+h.heapify()
+h.heap.removeFirst()
+h.heapify()
+
+print(h.heap)
